@@ -1,7 +1,7 @@
 # 🎓 Student Management System
 
-A simple and intuitive **Student Management System** built with HTML, CSS, and TypeScript. This application allows users to add, edit, delete and manage student information effortlessly. 
-site is live at https://baseem-ali-ch.github.io/Student-Management-Typescript/
+A simple and intuitive **Student Management System** built with HTML, CSS, and TypeScript. This application allows users to add, edit, delete and manage student information effortlessly. site is live at https://baseem-ali-ch.github.io/Student-Management-Typescript/ 
+
 ---
 
 ## 🌟 Features
