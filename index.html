@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Management System</h1>
+
+        <div id="notification" class="notification" style="display: none;"></div>
+
+        <div class="form-container">
+            <h2>Add/Edit Student</h2>
+            <form id="studentForm">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="grade">ID:</label>
+                    <input type="number" id="grade" name="grade" min="0" max="100" required>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" id="submitBtn">Add Student</button>
+                    <!-- <button type="button" id="resetForm">Reset Form</button> -->
+                </div>
+            </form>
+        </div>
+
+        <div class="students-container">
+            <h2>Students List</h2>
+            <div id="studentList" class="student-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
