@@ -1,12 +1,12 @@
 # 🎓 Student Management System
 
-A simple and intuitive **Student Management System** built with HTML, CSS, and JavaScript. This application allows users to add, edit, and manage student information effortlessly. 
+A simple and intuitive **Student Management System** built with HTML, CSS, and TypeScript. This application allows users to add, edit, delete and manage student information effortlessly. 
 
 ---
 
 ## 🌟 Features
 
-- 📋 **Add/Edit Students**  
+- 📋 **Add/Edit/Delete Students**  
   Capture and update student details like name, email, and ID.  
 
 - 🧾 **Dynamic Students List**  
@@ -21,7 +21,7 @@ A simple and intuitive **Student Management System** built with HTML, CSS, and J
 
 - **HTML** - Structure of the application  
 - **CSS** - Styling for the interface  
-- **JavaScript** - Dynamic functionality  
+- **TypeScript** - Dynamic functionality  
 
 ---
 
@@ -32,5 +32,5 @@ student-management-system/
 │
 ├── index.html         # Main HTML file
 ├── style.css          # CSS file for styling
-├── script.js          # JavaScript file for functionality
+├── script.ts          # TypeScript file for functionality
 └── README.md          # Project documentation
